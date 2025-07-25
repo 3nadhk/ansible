@@ -3,4 +3,6 @@
   connection: local # by using this no username and pwd are required
                     # while executing the ansible commands(modules)
   tasks:
-  - name: print hellow world                  
+  - name: print hellow world   
+    ansible.builtin.debug:
+      msg: Hellow World of Ansible!
