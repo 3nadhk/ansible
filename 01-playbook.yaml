@@ -2,9 +2,4 @@
 hosts: frontend
 tasks: # list of tasks
 -name: ping the server
-ansible.builtin.ping:
-#This is an update for git
-#this is again an update from remove VM after updating ssh key!
-#Bingo!!
-
-#Thsi took long time to succeed!!
+ ansible.builtin.ping:
