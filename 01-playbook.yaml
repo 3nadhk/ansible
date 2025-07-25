@@ -5,3 +5,4 @@ tasks: # list of tasks
 ansible.builtin.ping:
 #This is an update for git
 #this is again an update from remove VM after updating ssh key!
+#Bingo!!
