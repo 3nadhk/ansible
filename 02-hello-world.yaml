@@ -1,0 +1,6 @@
+- name: hello world
+  hosts: local
+  connection: local # by using this no username and pwd are required
+                    # while executing the ansible commands(modules)
+  tasks:
+  - name: print hellow world                  
