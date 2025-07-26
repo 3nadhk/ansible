@@ -20,5 +20,5 @@
   tasks:
   - name: Hello from PLAY3 and task-3
     ansible.builtin.debug:
-      msg: "Hello from Play-3 and Task3
+      msg: "Hello from Play-3 and Task3"
  
