@@ -6,8 +6,8 @@
     prompt: Please enter your USERNAME
     private: true
 
-  - name: PASSWORD
-    prompt: Please enter your PWD
+  - name: PWD
+    prompt: Please enter your Password
     private: true
   tasks:
   - name: Printing your information
