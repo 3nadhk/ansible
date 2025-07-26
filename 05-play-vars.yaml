@@ -3,9 +3,9 @@
     hosts: local
     connection: local
     vars:
-    COURSE: DevOps
-    DURATION: 10Hr
-    TRAINER: Sivakumar
+      COURSE: DevOps
+      DURATION: 10Hr
+      TRAINER: Sivakumar
     tasks:
   - name: Print course information
     ansible.builtin.debug:
