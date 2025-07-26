@@ -5,6 +5,10 @@
   - name: Hello from PLAY1 and task-1
     ansible.builtin.debug:
       msg: "Hello from Play-1 and Task1"
+  
+  - name: Hello from PLAY1 and task-2
+    ansible.builtin.debug:
+      msg: "Hello from Play-1 and Task2"    
 
 - name: PLAY2
   hosts: local
