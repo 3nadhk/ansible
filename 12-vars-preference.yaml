@@ -6,13 +6,13 @@
   vars_files:
   - course.yaml
   - name: GREETING
-    prmpt: Please enter the greeting
+    prompt: Please enter the greeting
     private: false
   tasks:
   - name: print the greeting
     vars:
       GREETING: "Hello from TASK"
-    ansible.builtin.package:
-      msg: "{{ GREETING }}"
+      ansible.builtin.package:
+       msg: "{{ GREETING }}"
 
 
