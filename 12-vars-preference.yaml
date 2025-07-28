@@ -4,6 +4,7 @@
   vars:
     GREETING: " Hello from PLAY"
   vars_files:
+  - course.yaml
   - name: GREETING
     prmpt: Please enter the greeting
     private: false
@@ -13,5 +14,5 @@
       GREETING: "Hello from TASK"
     ansible.builtin.package:
       msg: "{{ GREETING }}"
-      
+
 
