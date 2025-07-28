@@ -9,7 +9,7 @@
     - Linux
     - shell
     - ansible
-    CONCEPTS: # (Key value pairs, map or dictionary or object
+    CONCEPTS: # (Key value pairs, map or dictionary or object)
       CI: Jenkins
       SCRIPTING: "Shell,Ansible,terraform,python"
   tasks:
