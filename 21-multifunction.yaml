@@ -1,0 +1,20 @@
+- name: demo
+  vars:
+    persons: "Ramesh, Suresh, Raheem, Josh"
+  tasks:
+  - name: check defained variables
+    ansible.builtin.debug:
+      msg: "Hello, {{ person | default('Ramesh') }}
+
+  - name: print names
+    ansible.builtin.debug:
+     msg: "Hello {{ persons | split (',') }}"
+
+  - name: convert map into List
+    vars:
+      course:
+        name: ansible
+        duration: 10Hr
+        trainer: Sivakumar
+    ansible.builtin.debug:
+      msg: "Course Info: {{ course | dict2items }}"
