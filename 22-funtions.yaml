@@ -13,7 +13,7 @@
 
   - name: convert to uppercase
     vars:
-      name: "Trinadh Koney"
+      name: "TRINADH KONEY"
     ansible.builtin.debug:
       msg: "Hello {{ name | UPPER }}"
 
