@@ -7,8 +7,8 @@
       name: "{{ item }}"
       state: installed
     loop:
-    - mysql
+    # - mysql
     - nginx
-    - zip
+    # - zip
 
   
