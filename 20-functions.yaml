@@ -1,6 +1,6 @@
 - name: functions
   hosts: local
-  connectoin: local
+  connection: local
   tasks:
   - name: check undefined variables
     ansible.builtin.debug:
