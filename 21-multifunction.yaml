@@ -1,4 +1,5 @@
 - name: demo
+  hosts: local
   vars:
     persons: "Ramesh, Suresh, Raheem, Josh"
   tasks:
