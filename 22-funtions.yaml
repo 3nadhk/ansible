@@ -15,7 +15,7 @@
     vars:
       name: "TRINADH KONEY"
     ansible.builtin.debug:
-      msg: "Hello {{ name | lower }}"
+      msg: "Hello {{ name | upper }}"
 
   - name: check IP address is valid or not
     vars:
